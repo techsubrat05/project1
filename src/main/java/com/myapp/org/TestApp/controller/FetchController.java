@@ -11,7 +11,7 @@ public class FetchController {
 
 	@GetMapping("/dataFetch")
 	public String getFetchedData(@RequestParam String fetchedData) {
-		fetchedData = fetchedData+" hello";
+		fetchedData = fetchedData+" hello"+" morning";
 		
 		return fetchedData;
 	}
